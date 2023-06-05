@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Cambio de Color</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="shortcut icon" href="colores.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="menuToggle" onclick="ToggleMenu();"></div>
+    <div class="navigation">
+      <div class="navArea">
+        <ul>
+          <li>
+            <a href="#" onmouseover="ImgSlider('./img/img1.jpg')">Home</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="ImgSlider('./img/img2.jpg')">About</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="ImgSlider('./img/img3.jpg')">Services</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="ImgSlider('./img/img4.jpg')">Portfolio</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="ImgSlider('./img/img5.jpg')">Team</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="ImgSlider('./img/img6.jpg')">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="imgArea">
+        <img src="img/img1.jpg" id="slider" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
